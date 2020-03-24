@@ -1,0 +1,702 @@
+.cat-livelo {
+  width: 570px;
+  margin: 40px auto;
+  border: 1px solid #E7E7E7;
+  border-radius: 10px;
+  
+.card-points {
+  
+  .card-points__info {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 20px 0 0;
+    height: 50px;
+
+    .card-points_icon {
+      color: #d50087;
+    width: 45px;
+    font-size: 36px;
+    }
+
+    h2 {
+      color: #190F55;
+  font-family: Signika;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 28px;
+    }
+
+  }
+
+  .card-points__text {
+    color: #190F55;
+    font-family: "MuseoSans";
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+  }
+
+
+  .card-points__itens {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+
+    .card-points__transfer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .card-points__circle {
+        box-sizing: border-box;
+        height: 33px;
+        width: 33px;
+        border: 1px solid #E7E7E7;
+        border: 1px solid #E7E7E7;
+        border-radius: 50%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+          color: #E50091;
+          font-family: Signika;
+          font-size: 25px;
+          font-weight: bold;
+          letter-spacing: 0;
+          line-height: 41px;
+          text-align: center;
+        }
+      }
+
+      p {
+        color: #190F55;
+        font-family: "MuseoSans";
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        margin: 10px 0;
+      }
+
+      span {
+        color: #818181;
+        font-family: "MuseoSans";
+        font-weight: 300;
+        font-size: 12px;
+        text-align: center;
+        line-height: 15px;
+        margin: 10px 0;
+      }
+
+      form {
+       input {
+        box-sizing: border-box;
+        height: 30px;
+        width: 164px;
+        border: 1px solid #E7E7E7;
+        background-color: #F9F9F9;
+        border-radius: 10px;
+        color: #190F55;
+        font-family: "MuseoSans";
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 16px;
+        text-align: center;
+       }
+      }
+    }
+
+    article {
+      margin: 0 12px
+    }
+  }
+
+  .card-points__partner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .card-points__circle {
+
+      box-sizing: border-box;
+      height: 33px;
+      width: 33px;
+      border: 1px solid #E7E7E7;
+      border: 1px solid #E7E7E7;
+      border-radius: 50%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      span {
+        color: #E50091;
+        font-family: Signika;
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 41px;
+        text-align: center;
+      } 
+
+    }
+
+    p {
+      color: #190F55;
+      font-family: "MuseoSans";
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: center;
+      margin: 10px 0;
+    }
+    #new-form {
+
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        background: url(https://www.livelo.com.br/file/general/arrowDireita_v1.png) 95.5% 50% no-repeat;
+        height: 8px;
+        width: 14px;
+        right: 0;
+        margin: 10px;
+        cursor: pointer;
+        transition-duration: 1s;
+      }
+
+      &:hover:before {
+        transform: rotate(180deg);
+        transition-duration: 1s;
+      }
+
+      select {
+        cursor: pointer;
+        height: 26px;
+        box-sizing: border-box;
+        height: 30px;
+        width: 164px;
+        border: 1px solid #E7E7E7;
+        background-color: #F9F9F9 !important;
+        border-radius: 10px;
+        color: #190F55;
+        font-family: "MuseoSans";
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 16px;
+        padding: 0 5px;
+        text-align: center;
+        -webkit-appearance: none;
+        -moz-appearance:    none;
+        appearance:         none;
+  
+      }
+    }
+  }
+
+  .card-points__club {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .card-points__circle {
+
+      box-sizing: border-box;
+      height: 33px;
+      width: 33px;
+      border: 1px solid #E7E7E7;
+      border: 1px solid #E7E7E7;
+      border-radius: 50%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      span {
+        color: #E50091;
+        font-family: Signika;
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 41px;
+        text-align: center;
+      } 
+
+    }
+
+    p {
+      color: #190F55;
+      font-family: "MuseoSans";
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    #new-form {
+
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        background: url(https://www.livelo.com.br/file/general/arrowDireita_v1.png) 95.5% 50% no-repeat;
+        height: 8px;
+        width: 14px;
+        right: 0;
+        margin: 10px;
+        cursor: pointer;
+        transition-duration: 1s;
+      }
+
+      &:hover:before {
+        transform: rotate(180deg);
+        transition-duration: 1s;
+      }
+
+      select {
+        cursor: pointer;
+        height: 26px;
+        box-sizing: border-box;
+        height: 30px;
+        width: 164px;
+        border: 1px solid #E7E7E7;
+        background-color: #F9F9F9 !important;
+        border-radius: 10px;
+        color: #190F55;
+        font-family: "MuseoSans";
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 16px;
+        padding: 0 5px;
+        text-align: center;
+        -webkit-appearance: none;
+        -moz-appearance:    none;
+        appearance:         none;
+  
+      }
+    }
+
+  }
+}
+
+.results {
+  height: 250px;
+  &::before {
+    content: "";
+    display: block;
+    max-width: 532px;
+    background-color: #E7E7E7;
+    height: 2px;
+    margin: 30px auto;
+  }
+.points_title {
+  color: #E50091;
+  font-family: Signika;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.results__points {
+    display: flex;
+    justify-content: center;
+  article {
+    .points_text {
+      color: #190F55;
+      font-family: "MuseoSans";
+      font-weight: 300;
+      font-size: 14px;
+    
+    }
+
+    p {
+      color: #190F55;
+      font-family: "MuseoSans";
+      font-weight: 300;
+      font-size: 13px;
+    
+    }
+
+    form {
+
+
+      input {
+        box-sizing: border-box;
+        height: 57px;
+        width: 243px;
+        border: 1px solid #E7E7E7;
+        border-radius: 10px;
+        color: #E50091;
+        font-family: Signika;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+      
+       
+      }
+
+     
+    }
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:last-child {
+      form {
+        &::before {
+        
+          content: "+";
+          color: #E50091;
+          font-family: Signika;
+          font-size: 32px;
+          font-weight: bold;
+          vertical-align: middle;
+          padding: 0 15px
+        }
+      }
+    }
+  }
+
+   
+}
+
+  button {
+    display: block;
+    margin: 30px auto;
+  }
+}
+
+.club-livelo {
+
+  &::before {
+    content: "";
+    display: block;
+    max-width: 532px;
+    background-color: #E50091;;
+    height: 2px;
+    margin: 30px auto;
+  }
+  .club-livelo__top {
+
+    h4 {
+      color: #E50091;
+      font-family: Signika;
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 0;
+      text-align: center;
+    }
+
+    p {
+      color: #818181;
+      font-family: "MuseoSans";
+      font-weight: 500;
+      font-size: 13px;
+      text-align: center;
+      line-height: 15px;
+      margin: 30px;
+    }
+  }
+
+  .club-livelo__middle {
+    display: flex;
+    justify-content: center;
+
+
+    .club-livelo__points {
+      box-sizing: border-box;
+      height: 161px;
+      width: 160px;
+      border: 1px solid #190F55;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     
+    
+
+      p {
+        color: #190F55;
+        font-family: "MuseoSans";
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+      }
+
+      strong {
+        color: #190F55;
+        font-family: Signika;
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 33px;
+        text-align: center;
+        padding: 20px;
+     
+      }
+
+      span {
+        color: #190F55;
+        font-family: "MuseoSans";
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+        line-height: 16px;
+      }
+
+    }
+  }
+
+
+  .club-latam__bottom {
+    display: flex;
+    justify-content: center;
+
+    .club-latam__points {
+      box-sizing: border-box;
+      height: 161px;
+      width: 160px;
+      border: 1px solid #190F55;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 10px;
+
+      p {
+        color: #190F55;
+        font-family: "MuseoSans";
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+      }
+
+      strong {
+        color: #190F55;
+        font-family: Signika;
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 33px;
+        text-align: center;
+     
+      }
+
+      span {
+        color: #190F55;
+        font-family: "MuseoSans";
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+        line-height: 16px;
+      }
+
+    }
+  }
+}
+
+.erro-club {
+  &::before {
+    content: "";
+    display: block;
+    max-width: 532px;
+    background-color: #E7E7E7;
+    height: 2px;
+    margin: 30px auto;
+  }
+  h5 {
+    color: #E50091;
+    font-family: Signika;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  p {
+    color: #190F55;
+    font-family: "MuseoSans";
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+  }
+}
+button {
+  display: block;
+  margin: 40px auto;
+}
+}
+
+
+@media only screen and (max-width: 570px) {
+
+  .cat-livelo {
+    width: 100%;
+    margin: 40px auto;
+    border: 1px solid #E7E7E7;
+    border-radius: 10px;
+}
+
+.cat-livelo .card-points .card-points__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: inherit;
+    margin: 20px 10px 0;
+    height: inherit;
+}
+
+.cat-livelo .card-points .card-points__info h2 {
+    color: #190F55;
+    font-family: Signika;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    
+}
+
+.cat-livelo .card-points .card-points__text {
+    color: #190F55;
+    font-family: "MuseoSans";
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.cat-livelo .card-points .card-points__itens {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+
+
+.cat-livelo .card-points .card-points__itens article {
+    margin: 10px;
+}
+
+
+.cat-livelo .erro-club p {
+    margin: 0 10px;
+}
+
+.cat-livelo .results {
+    height: inherit;
+}
+
+
+.cat-livelo .results .results__points {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.cat-livelo .results .results__points article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 243px;
+}
+
+
+
+.cat-livelo .results .results__points article:last-child form::before {
+    content: "+";
+    color: #E50091;
+    font-family: Signika;
+    font-size: 32px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+
+.cat-livelo .club-livelo .club-latam__bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.cat-livelo .club-livelo .club-latam__bottom .club-latam__points {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 161px;
+    width: 160px;
+    border: 1px solid #190F55;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
